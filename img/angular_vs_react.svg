@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="564.47278mm"
+   height="119.74161mm"
+   viewBox="0 0 2000.1003 424.28129"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="angular_vs_react.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#000000"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="510.70277"
+     inkscape:cy="341.44556"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(610.97192,-324.03195)">
+    <g
+       id="g4188"
+       transform="translate(-646.07936,325.05843)">
+      <g
+         style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         id="text4145">
+        <path
+           d="m 347.53326,257.28387 0,-89.02587 11.51734,0 54.47388,71.71875 0,-71.71875 10.89477,0 0,89.02587 -11.51733,0 -54.47388,-72.3413 0,72.3413 -10.89478,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:127.5px;line-height:125%;font-family:Sansation;-inkscape-font-specification:'Sansation, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+           id="path4293" />
+        <path
+           d="m 512.88483,253.79755 q -10.77027,4.10888 -23.22144,4.10888 -48.3728,0 -48.3728,-46.38061 0,-43.89038 46.69189,-43.89038 13.38501,0 24.90235,3.73535 l 0,9.96094 q -11.51734,-4.35791 -23.65723,-4.35791 -36.41968,0 -36.41968,34.552 0,37.04223 35.85938,37.04223 5.72754,0 12.70019,-1.49414 l 0,-30.25634 11.51734,0 0,36.97998 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:127.5px;line-height:125%;font-family:Sansation;-inkscape-font-specification:'Sansation, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+           id="path4295" />
+        <path
+           d="m 531.18805,222.91864 0,-54.66064 11.51733,0 0,54.66064 q 0,25.64941 25.52491,25.64941 25.5249,0 25.5249,-25.64941 l 0,-54.66064 11.51733,0 0,54.66064 q 0,34.98779 -37.04223,34.98779 -37.04224,0 -37.04224,-34.98779 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:127.5px;line-height:125%;font-family:Sansation;-inkscape-font-specification:'Sansation, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+           id="path4297" />
+        <path
+           d="m 637.20978,168.258 0,79.6875 46.56738,0 0,9.33837 -58.08472,0 0,-89.02587 11.51734,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:127.5px;line-height:125%;font-family:Sansation;-inkscape-font-specification:'Sansation, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+           id="path4299" />
+        <path
+           d="m 700.33722,257.28387 -11.95313,0 37.78931,-89.02587 12.76245,0 37.97608,89.02587 -12.76245,0 -11.51734,-28.01513 -29.44702,0 3.17505,-9.33838 22.41211,0 -16.62232,-40.3418 -31.81274,77.69531 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:127.5px;line-height:125%;font-family:Sansation;-inkscape-font-specification:'Sansation, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+           id="path4301" />
+        <path
+           d="m 789.05182,257.28387 0,-89.02587 37.97607,0 q 25.40039,0 25.40039,21.35376 0,17.36938 -24.84008,25.71167 l 30.56762,41.96044 -15.19043,0 -28.32641,-40.03051 0,-7.53296 q 25.5249,-4.04663 25.5249,-19.6106 0,-12.32666 -14.19434,-12.32666 l -25.40039,0 0,79.50073 -11.51733,0 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:127.5px;line-height:125%;font-family:Sansation;-inkscape-font-specification:'Sansation, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1"
+           id="path4303" />
+      </g>
+      <g
+         transform="translate(100.20996,81.114165)"
+         id="g4169">
+        <polygon
+           style="fill:#dd0031"
+           class="st0"
+           points="125,230 203.9,186.3 218.1,63.2 125,30 125,30 125,30 31.9,63.2 46.1,186.3 125,230 125,230 "
+           id="polygon4171" />
+        <polygon
+           style="fill:#c3002f"
+           class="st1"
+           points="203.9,186.3 218.1,63.2 125,30 125,30 125,52.2 125,52.1 125,153.4 125,153.4 125,230 125,230 "
+           id="polygon4173" />
+        <path
+           style="fill:#ffffff"
+           inkscape:connector-curvature="0"
+           class="st2"
+           d="m 125,52.1 -58.2,130.5 0,0 21.7,0 0,0 11.7,-29.2 49.4,0 11.7,29.2 0,0 21.7,0 0,0 -58,-130.5 0,0 0,0 0,0 0,0 z m 17,83.3 -34,0 17,-40.9 17,40.9 z"
+           id="path4175" />
+      </g>
+    </g>
+    <g
+       id="g4231"
+       transform="translate(580.58501,-235.18817)">
+      <g
+         transform="matrix(9.8497325,0,0,9.8497326,114.09437,771.36076)"
+         id="g4178">
+        <circle
+           style="fill:#61dafb"
+           cx="0"
+           cy="0"
+           r="2.05"
+           id="circle4162" />
+        <g
+           style="fill:none;stroke:#61dafb;stroke-width:1.00002718;stroke-miterlimit:4;stroke-dasharray:none"
+           id="g4164">
+          <ellipse
+             style="stroke-width:1.00002718;stroke-miterlimit:4;stroke-dasharray:none"
+             cy="0"
+             cx="0"
+             rx="11"
+             ry="4.1999998"
+             id="ellipse4166" />
+          <ellipse
+             style="stroke-width:1.00002718;stroke-miterlimit:4;stroke-dasharray:none"
+             cy="0"
+             cx="0"
+             rx="11"
+             ry="4.1999998"
+             transform="matrix(0.5,0.8660254,-0.8660254,0.5,0,0)"
+             id="ellipse4168" />
+          <ellipse
+             style="stroke-width:1.00002718;stroke-miterlimit:4;stroke-dasharray:none"
+             cy="0"
+             cx="0"
+             rx="11"
+             ry="4.1999998"
+             transform="matrix(-0.5,0.8660254,-0.8660254,-0.5,0,0)"
+             id="ellipse4170" />
+        </g>
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4196"
+         y="843.12671"
+         x="268.3035"
+         style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#61dafb;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:167.5px;line-height:125%;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#61dafb;fill-opacity:1"
+           y="843.12671"
+           x="268.3035"
+           id="tspan4198"
+           sodipodi:role="line">React</tspan></text>
+    </g>
+    <g
+       id="g4274"
+       transform="translate(9.0906069,0)">
+      <circle
+         r="100"
+         cy="537.19135"
+         cx="379.98767"
+         id="path4245"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:9.85000038;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4247"
+         y="582.79376"
+         x="298.02783"
+         style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#222222;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:127.5px;line-height:125%;font-family:Arial;-inkscape-font-specification:'Arial, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#222222;fill-opacity:1"
+           y="582.79376"
+           x="298.02783"
+           id="tspan4249"
+           sodipodi:role="line">VS</tspan></text>
+    </g>
+  </g>
+  <style
+     id="style4137"
+     type="text/css">
+	.st0{fill:#DD0031;}
+	.st1{fill:#C3002F;}
+	.st2{fill:#FFFFFF;}
+</style>
+  <style
+     id="style4167"
+     type="text/css">
+	.st0{fill:#DD0031;}
+	.st1{fill:#C3002F;}
+	.st2{fill:#FFFFFF;}
+</style>
+</svg>
