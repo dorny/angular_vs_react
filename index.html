@@ -1,149 +1,273 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+        <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
-		<link rel="stylesheet" href="css/theme/custom.css">
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/black.css">
+        <link rel="stylesheet" href="css/theme/custom.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section
-					data-background-color="#20232a"
-					data-background-image="img/angular-background.png"
-					data-background-size="50% auto"
-					data-background-position="left">
-						<img src="img/angular_vs_react.svg" class="raw stretch"/>
-				</section>
-				<section>
-					<h2>Agenda:</h2>
-					<ul>
-						<li>Introduction</li>
-						<li>Angular</li>
-						<li>React</li>
-						<li>Q & A</li>
-						<li>Exercise</li>
-					</ul>
-				</section>
-				<section>
-					<h1>Introduction</h1>
-				</section>
-				<section>
-					<h3>My experience on web:</h3>
-					<ul>
-						<li class="fragment">Part-time frontend developer (2012 - 2013)</li>
-						<li class="fragment">Full-stack: ASP.Core + Angular (2017 - 2018)</li>
-						<li class="fragment">SW architect: .NET services + React (2019)</li>
-					</ul>
-				</section>
-				<section>
-					<h3>I'm not a frontend specialist :)</h3>
-					<p class="fragment">
-						This presentation is from a point of view of .NET developer
-						with some experience on web
-					</p>
-				</section>
-				<section>
-					<h2>Super-Brief History of JavaScript Frameworks</h2>
-				</section>
-				<section>
-					<h3>...last ~10 years</h3>
-					<img src="img/days-since-last-js-framework.png"/>
-				</section>
-				<section>
-					<h3>JavaScript Frameworks Timeline</h3>
-					<ul>
-						<li class="fragment">2006 - jQuery</li>
-						<li class="fragment">2010 - Backbone, Knockout, AngularJS</li>
-						<li class="fragment">2013 - React</li>
-						<li class="fragment">2014 - Vue</li>
-						<li class="fragment">2016 - Angular 2.0</li>
-					</ul>
-				</section>
-				<section>
-						<h3>Popularity over time</h3>
-						<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1754_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"angular","geo":"","time":"2011-01-01 2019-03-12"},{"keyword":"backbone","geo":"","time":"2011-01-01 2019-03-12"},{"keyword":"react","geo":"","time":"2011-01-01 2019-03-12"},{"keyword":"Vue","geo":"","time":"2011-01-01 2019-03-12"}],"category":31,"property":""}, {"exploreQuery":"cat=31&date=2011-01-01%202019-03-12&q=angular,backbone,react,Vue","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
-				</section>
-				<section>
-					<h3>Angular & React (2019):</h3>
-					<ul>
-						<li class="fragment">Excellent documentation</li>
-						<li class="fragment">Stable development</li>
-						<li class="fragment">Tested in production</li>
-						<li class="fragment">3rd party libraries</li>
-						<li class="fragment">Developers available</li>
-					</ul>
-				</section>
-				<section>
-					<h3>Angular, React or Vue:</h3>
-					<ul>
-						<li class="fragment">Corporate environment</li>
-						<li class="fragment">You don't want to learn another JS framework which will be soon obsolete (you have a life)</li>
-					</ul>
-				</section>
-				<section>
-					<h3>Consider using something else:</h3>
-					<ul>
-						<li class="fragment">You are an expert with specific requirements</li>
-						<li class="fragment">Personal projects (you don't have a life)</li>
-					</ul>
-				</section>
-				<section>
-					<h1>Angular</h1>
-				</section>
-				<section>
-					- App -> Modules -> [Components, Directives, Pipes, Services... ]
-					- Change tracking: Zone.js
-					- DI
-					- Component: template + style + code
-				</section>
-				<section>
-					<h1>React</h1>
-				</section>
-				<section>
-					<h1>Q & A</h1>
-				</section>
-				<section>
-					<h1>Exercise</h1>
-				</section>
-			</div>
-		</div>
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement( 'link' );
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName( 'head' )[0].appendChild( link );
+        </script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section
+                    data-background-color="#20232a"
+                    data-background-image="img/angular-background.png"
+                    data-background-size="50% auto"
+                    data-background-position="left">
+                        <img src="img/angular_vs_react.svg" class="raw stretch"/>
+                </section>
+                <section>
+                    <h2>Agenda:</h2>
+                    <ul>
+                        <li>Introduction</li>
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Q & A</li>
+                        <li>Exercise</li>
+                    </ul>
+                </section>
+                <section>
+                    <h1>Introduction</h1>
+                </section>
+                <section>
+                    <h3>My experience on web:</h3>
+                    <ul>
+                        <li class="fragment">Part-time frontend developer (2012 - 2013)</li>
+                        <li class="fragment">Full-stack: ASP.Core + Angular (2017 - 2018)</li>
+                        <li class="fragment">SW architect: .NET services + React (2019)</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>I'm not a frontend specialist :)</h3>
+                    <p class="fragment">
+                        This presentation is from a point of view of .NET developer
+                        with some experience on web
+                    </p>
+                </section>
+                <section>
+                    <h2>Super-Brief History of JavaScript Frameworks</h2>
+                </section>
+                <section>
+                    <h3>...last ~10 years</h3>
+                    <img src="img/days-since-last-js-framework.png"/>
+                </section>
+                <section>
+                    <h3>JavaScript Frameworks Timeline</h3>
+                    <ul>
+                        <li class="fragment">2006 - jQuery</li>
+                        <li class="fragment">2010 - Backbone, Knockout, AngularJS</li>
+                        <li class="fragment">2013 - React</li>
+                        <li class="fragment">2014 - Vue</li>
+                        <li class="fragment">2016 - Angular 2.0</li>
+                    </ul>
+                </section>
+                <section>
+                        <h3>Popularity over time</h3>
+                        <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/1754_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"angular","geo":"","time":"2011-01-01 2019-03-12"},{"keyword":"backbone","geo":"","time":"2011-01-01 2019-03-12"},{"keyword":"react","geo":"","time":"2011-01-01 2019-03-12"},{"keyword":"Vue","geo":"","time":"2011-01-01 2019-03-12"}],"category":31,"property":""}, {"exploreQuery":"cat=31&date=2011-01-01%202019-03-12&q=angular,backbone,react,Vue","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+                </section>
+                <section>
+                    <h3>Angular & React (2019):</h3>
+                    <ul>
+                        <li class="fragment">Excellent documentation</li>
+                        <li class="fragment">Stable development</li>
+                        <li class="fragment">Tested in production</li>
+                        <li class="fragment">3rd party libraries</li>
+                        <li class="fragment">Developers available</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Angular, React or Vue:</h3>
+                    <ul>
+                        <li class="fragment">Corporate environment</li>
+                        <li class="fragment">You don't want to learn another JS framework which will be soon obsolete (you have a life)</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Consider using something else:</h3>
+                    <ul>
+                        <li class="fragment">You are an expert with specific requirements</li>
+                        <li class="fragment">Personal projects (you don't have a life)</li>
+                    </ul>
+                </section>
+                <section>
+                    <img src="img/angular.svg" class="raw stretch"/>
+                </section>
+                <section>
+                    <h3>Angular structure</h3>
+                    <img src="img/angular_structure.svg"/>
+                </section>
+                <section>
+                    <b>@NgModule</b>
+                    <p>NgModules consolidate components, directives, and pipes into cohesive blocks of functionality.</p>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        **@NgModule**
+                        ```ts
+                        import { NgModule } from '@angular/core';
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+                        @NgModule({
+                            id: 'MyModule'
+                            imports: [...],
+                            exports: [...],
+                            providers: [...],
+                            declarations: [...],
+                            bootstrap: [...],
+                            entryComponents: [...],
+                            schemas: [...],
+                        })
+                        export class AppModule {}
+                        ```
+                    </textarea>
+                </section>
+                <section>
+                    <h3>Component</h3>
+                    <img src="img/angular_component.svg"/>
+                </section>
+                <section>
+                    <b>@Component</b>
+                    <p>A component controls a patch of screen called a view.</p>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        **@Component**
+                        ```
+                        import { Component } from '@angular/core';
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				],
-				backgroundTransition: 'none',
-				history: true,
+                        @Component({
+                            selector: 'app'
+                            templateUrl: './app.component.html',
+                            styleUrls: ['./app.component.css']
+                        })
+                        export class AppComponent {
+                            constructor(
+                                // Injected services
+                            ) {...}
+
+                            // Properties, Methods, ...
+                        }
+                        ```
+                    </textarea>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        **Component**
+                        ```ts
+                        export class AppComponent {
+                            message: string;
+
+                            setMessage() {
+                                this.message = 'Hello World!';
+                            }
+                        }
+                        ```
+                        **Template**
+                        ```html
+                        <div>
+                            <span *ngIf="message == null">No message!</span>
+                            <p>{{message | uppercase}}</p>
+                            <button (click)="setMessage()">Say Hello</button>
+                        </div>
+                        ```
+                    </textarea>
+                </section>
+                <section>
+                    <h3>Change detection</h3>
+                    <p>Angular can detect when component data changes, and then automatically re-render the view to reflect that change.</p>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        **Overriding browser default mechanisms**
+                        ```js
+                        // this is the new version of addEventListener
+                        function addEventListener(eventName, callback) {
+                            // call the real addEventListener
+                            callRealAddEventListener(eventName, function() {
+                            // first call the original callback
+                            callback(...);
+                            // and then run Angular-specific functionality
+                            var changed = angular2.runChangeDetection();
+                                if (changed) {
+                                    angular2.reRenderUIPart();
+                                }
+                            });
+                        }
+                        ```
+                    </textarea>
+                </section>
+                <section>
+                    <h3>Lifecycle sequence</h3>
+                    <ul>
+                        <li>ngOnInit()</li>
+                        <li>ngAfterContentInit()</li>
+                        <li>ngAfterViewInit()</li>
+                        <li>ngOnDestroy()</li>
+                    </ul>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        **Spy on any element to which it is applied**
+                        ```ts
+                        @Directive({selector: '[mySpy]'})
+                        export class SpyDirective implements OnInit, OnDestroy {
+
+                            ngOnInit() {
+                                ...
+                            }
+
+                            ngOnDestroy() {
+                                ...
+                            }
+                        }
+                        ```
+                    </textarea>
+                </section>
+                <section>
+                    <img src="img/react.svg" class="raw stretch"/>
+                </section>
+                <section>
+                    <h1>Q & A</h1>
+                </section>
+                <section>
+                    <h1>Exercise</h1>
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
+
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+                dependencies: [
+                    { src: 'plugin/markdown/marked.js' },
+                    { src: 'plugin/markdown/markdown.js' },
+                    { src: 'plugin/notes/notes.js', async: true },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+                ],
+                backgroundTransition: 'none',
+                history: true,
                 transition: 'none',
-			});
-		</script>
-	</body>
+            });
+        </script>
+    </body>
 </html>
