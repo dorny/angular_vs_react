@@ -109,7 +109,7 @@
                     <img src="img/angular.svg" class="raw stretch"/>
                 </section>
                 <section>
-                    <h3>Angular structure</h3>
+                    <b>Example structure of Angular Application</b>
                     <img src="img/angular_structure.svg"/>
                 </section>
                 <section>
@@ -181,7 +181,7 @@
                         ```html
                         <div>
                             <span *ngIf="message == null">No message!</span>
-                            <p>{{message | uppercase}}</p>
+                            <p *ngIf="message">{{message | uppercase}}</p>
                             <button (click)="setMessage()">Say Hello</button>
                         </div>
                         ```
@@ -214,6 +214,7 @@
                 <section>
                     <h3>Lifecycle sequence</h3>
                     <ul>
+                        <li>constructor()</li>
                         <li>ngOnInit()</li>
                         <li>ngAfterContentInit()</li>
                         <li>ngAfterViewInit()</li>
@@ -240,6 +241,117 @@
                 </section>
                 <section>
                     <img src="img/react.svg" class="raw stretch"/>
+                </section>
+                <section>
+                    <b>Example structure of React Application</b>
+                    <img src="img/react_structure.svg"/>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        **Stateless (pure) functional component**
+                        ```js
+                        const Hello = (props) => {
+                            let content;
+                            if (props.message) {
+                                content = <p>{props.message.toUpperCase()}</p>
+                            }
+                            else {
+                                content = <span>"No message!"</span>;
+                            }
+
+                            return (<div>{content}</div>)
+                        }
+
+                        export default Hello;
+                        ```
+                        **Usage**
+                        ```jsx
+                        <Hello message="Hello World!"/>
+                        ```
+                    </textarea>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        **React Hooks: 'functional' component with state**
+                        ```js
+                        const Hello = () => {
+                            let [message, setMessage] = useState(null);
+
+                            const content = message
+                                ? <p>{message.toUpperCase()}</p>
+                                : <span>No message!</span>;
+
+                            return <div>
+                                {content}
+                                <button onClick={() => setMessage("Hello World!")}>
+                                    Say Hello
+                                </button>
+                            </div>;
+                        }
+                        ```
+                    </textarea>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        **Stateful component**
+                        ```js
+                        class App extends Component {
+                            state = {}
+                            setMessage = () => this.setState({message: "Hello World!"});
+
+                            render() {
+                                return (
+                                <>
+                                    <Hello message={this.state.message}/>
+                                    <button onClick={this.setMessage}>Say Hello!</button>
+                                </>);
+                            }
+                        }
+                        ```
+                    </textarea>
+                </section>
+                <section>
+                    <h2>MobX</h2>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        **MobX**
+                        ```jsx
+                        @observer
+                        class App extends Component {
+                            @observable message = "";
+
+                            render() {
+                                return (
+                                <>
+                                    <p>{this.message}</p>
+                                    <button onClick={() => this.message = "Hello World!"}>
+                                        Say Hello!
+                                    </button>
+                                </>);
+                            }
+                        }
+                        ```
+                    </textarea>
+                </section>
+                <section>
+                    <h3>MobX</h3>
+                   <b>1 . The application state of complex applications can best be expressed using graphs to achieve referential consistency and stay close to the mental model of a problem domain.</b>
+                </section>
+                <section>
+                    <h3>MobX</h3>
+                    <b>2. One should not imperatively act on state changes by using manually defined subscriptions or cursors. This will inevitably lead to bugs as a result of under- or oversubscribing.</b>
+                </section>
+                <section>
+                    <h3>MobX</h3>
+                    <b>3. Use runtime analysis to determine the smallest possible set of observer → observable relationships. This leads to a computational model where it can be guaranteed that the minimum amount of derivations are run without ever observing a stale value.</b>
+                </section>
+                <section>
+                    <h3>MobX</h3>
+                    <b>4. Any derivation that is not needed to achieve an active side effect can be optimized away completely.</b>
+                </section>
+                <section>
+                    <h3>Redux</h3>
                 </section>
                 <section>
                     <h1>Q & A</h1>
