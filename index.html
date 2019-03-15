@@ -38,8 +38,9 @@
                         <li>Introduction</li>
                         <li>Angular</li>
                         <li>React</li>
+                        <li>Conclusion</li>
                         <li>Q & A</li>
-                        <li>Exercise</li>
+                        <li>Try it by yourself!</li>
                     </ul>
                 </section>
                 <section>
@@ -108,6 +109,10 @@
                 <section>
                     <img src="img/angular.svg" class="raw stretch"/>
                 </section>
+                <section>
+                        <b>Build process & development environment</b>
+                        <img src="img/build.svg"/>
+                    </section>                
                 <section>
                     <b>Example structure of Angular Application</b>
                     <img src="img/angular_structure.svg"/>
@@ -237,6 +242,10 @@
                             }
                         }
                         ```
+                        **Usage**
+                        ```
+                        <my-component [mySpy]></my-component>>
+                        ```
                     </textarea>
                 </section>
                 <section>
@@ -311,6 +320,39 @@
                     </textarea>
                 </section>
                 <section>
+                    <h2>Redux</h2>
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+                        **Redux**
+                        - Normalized state (e.g. single JS object) <!-- .element: class="fragment" -->
+                        - Actions: `{ type: 'ADD_TODO', text: '...' }` <!-- .element: class="fragment" -->
+                        - Action creators: `function addTodo(text) => { type: 'ADD_TODO', text: text }` <!-- .element: class="fragment" -->
+                        - Reducers: `(previousState, action) => newState` <!-- .element: class="fragment" -->
+                        - `connect(mapStateToProps?, mapDispatchToProps?, mergeProps?, options?)` <!-- .element: class="fragment" -->
+                    </textarea>
+                </section>
+                <section>
+                    <ul>
+                        <li>
+                            <b>Redux pros:</b>
+                            <ul>
+                                <li class="fragment">Save & Restore</li>
+                                <li class="fragment">Time travel</li>
+                                <li class="fragment">Unidirectional data flow without side effects</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <b>Redux cons:</b>
+                            <ul>
+                                <li class="fragment">Requires normalized state</li>
+                                <li class="fragment">Boilerplate</li>
+                                <li  class="fragment">Async flows</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section>
                     <h2>MobX</h2>
                 </section>
                 <section data-markdown>
@@ -351,13 +393,55 @@
                     <b>4. Any derivation that is not needed to achieve an active side effect can be optimized away completely.</b>
                 </section>
                 <section>
-                    <h3>Redux</h3>
+                    <h2>Conclusion</h2>
+                    <b>So angular or react?</b>
+                </section>
+                <section>
+                    <b>My subjective opinion</b>
+                    <ul>
+                        <li class="fragment">
+                            Angular was easy to start
+                            <ul>
+                                <li class="fragment">Component code - like ViewModel in MVVM</li>
+                                <li class="fragment">Template - like View in MVVM</li>
+                                <li class="fragment">Dependency Injection</li>
+                            </ul>
+                        </li>
+                        <li class="fragment">
+                            ...later I got frustrated
+                            <ul>
+                                <li class="fragment">Templates: poor tooling</li>
+                                <li class="fragment">Templates: directives / pipes instead of code</li>
+                                <li class="fragment">Templates: angular expressions</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <section>
+                    <b>My subjective opinion</b>
+                    <ul>
+                        <li>
+                            Started learning React
+                            <ul>
+                                <li class="fragment">JSX is great</li>
+                                <li class="fragment">Is React + TypeScript working together?</li>
+                                <li class="fragment">State management - <b>WTF?</b></li>
+                            </ul>
+                        </li>
+                        <li class="fragment">Redux: terrible amount of boilerplate</li>
+                        <li class="fragment">MobX: looks nice</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>I would choose</h3>
+                    <ul>
+                        <li class="fragment">React</li>
+                        <li class="fragment">TypeScript</li>
+                        <li class="fragment">MobX</li>
+                    </ul>
                 </section>
                 <section>
                     <h1>Q & A</h1>
-                </section>
-                <section>
-                    <h1>Exercise</h1>
                 </section>
             </div>
         </div>
